@@ -158,6 +158,7 @@
 		2CC211C2236E3141007CECEE /* PreferencesTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesTabViewController.swift; sourceTree = "<group>"; };
 		2CC211C4236FB5C1007CECEE /* ScriptsSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptsSettingsViewController.swift; sourceTree = "<group>"; };
 		2CEC93F9249C2D600080B9B8 /* ThemeSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSettingsViewController.swift; sourceTree = "<group>"; };
+		B65307E429F087520009035C /* savannakit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = savannakit; path = ../../savannakit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +203,7 @@
 		2C20666921FD628E0082570E = {
 			isa = PBXGroup;
 			children = (
+				B65307E329F087520009035C /* Packages */,
 				2C5ED41C2357F65400322893 /* UI */,
 				2C20667421FD628E0082570E /* Boop */,
 				2C17C66824271DDA005C911C /* BoopTests */,
@@ -337,6 +339,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B65307E329F087520009035C /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				B65307E429F087520009035C /* savannakit */,
+			);
+			name = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -911,10 +921,6 @@
 		2C8BE17F249EBADC00099B73 /* XCRemoteSwiftPackageReference "savannakit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/IvanMathy/savannakit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.14.2;
-			};
 		};
 		2C8BE186249EBB3D00099B73 /* XCRemoteSwiftPackageReference "fuse-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
